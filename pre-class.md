@@ -17,3 +17,5 @@ A data engineer's first job is almost always "get data from Point A to Point B."
 **REST vs GraphQL Trade-offs** — REST returns fixed response shapes (often over-fetching data you don't need). GraphQL lets you specify exactly what fields you want. For FreshCart, if you only need `order_id` and `status` from a 50-field order object, GraphQL saves bandwidth and processing.
 
 **Web Scraping Fundamentals** — HTML structure, CSS selectors, BeautifulSoup. Scraped data is fragile (the website can change at any time), may be legally restricted, and is often messy. This is a useful skill but should be treated as a last resort after APIs.
+
+📄 [View lesson 2.4 interactive page](https://su-ntu-ctp.github.io/5m-data-2.4-data-extraction-scraping/)
